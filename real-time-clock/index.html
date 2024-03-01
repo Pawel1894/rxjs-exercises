@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <label><b>Clock: </b></label>
+        <span id="clock"></span>
+      </div>
+      <div>
+        <label><b>timer</b></label>
+        <span id="timer"></span>
+      </div>
+      <div>
+        <label><b>stopwatch</b></label>
+        <span id="stopwatch">00:00:00</span>
+        <button id="stopwatchBtn">start</button>
+        <button id="stopwatchBtnStop">stop</button>
+        <button id="stopwatchBtnReset">reset</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
